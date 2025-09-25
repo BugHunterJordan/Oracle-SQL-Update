@@ -12,5 +12,5 @@ In this demo, I updated the `NEWCD` table to modify a record based on a specific
 
 ```sql
 UPDATE NEWCD
-SET title to 'Party Music Playlist'
-WHERE it was called 'Party Music'
+SET cdtitle = 'Party Music Playlist'
+WHERE cdtitle = 'Party Music'
